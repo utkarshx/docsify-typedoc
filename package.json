@@ -13,5 +13,9 @@
     "typedoc",
     "typedoc-theme"
   ],
+  "peerDependencies": {
+    "typedoc": "^0.23.5",
+    "typedoc-plugin-markdown": "^3.13.2"
+  },
   "license": "ISC"
 }

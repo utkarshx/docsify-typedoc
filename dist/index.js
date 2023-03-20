@@ -4,7 +4,7 @@ exports.load = void 0;
 const typedoc_1 = require("typedoc");
 const theme_1 = require("./theme");
 function load(app) {
-    app.renderer.defineTheme('yug-docs', theme_1.PolymeshTheme);
+    app.renderer.defineTheme('docsify-docs', theme_1.PolymeshTheme);
     app.options.addDeclaration({
         help: 'README page title',
         name: 'readmeTitle',
