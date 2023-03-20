@@ -1,0 +1,17 @@
+{
+  "name": "docsifydoc",
+  "version": "1.0.0",
+  "description": "Custom theme which extends the [typedoc-plugin-markdown](https://github.com/tgreyuk/typedoc-plugin-markdown/tree/master/packages/typedoc-plugin-markdown) to format the output to be compatible with the Polymesh SDK documentation used in a Docusaurus site.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "keywords": [
+    "yug",
+    "docsify",
+    "typedoc",
+    "typedoc-theme"
+  ],
+  "license": "ISC"
+}
