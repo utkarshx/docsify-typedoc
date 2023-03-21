@@ -42,7 +42,7 @@ const CATEGORY_POSITION = {
     [typedoc_1.ReflectionKind.Function]: 7,
     [typedoc_1.ReflectionKind.ObjectLiteral]: 8,
 };
-class PolymeshTheme extends typedoc_plugin_markdown_1.MarkdownTheme {
+class DocsifyTheme extends typedoc_plugin_markdown_1.MarkdownTheme {
     constructor(renderer) {
         super(renderer);
         this.readmeTitle = this.getOption('readmeTitle');
@@ -169,7 +169,7 @@ class PolymeshTheme extends typedoc_plugin_markdown_1.MarkdownTheme {
         return page.model.name;
     }
 }
-exports.PolymeshTheme = PolymeshTheme;
+exports.DocsifyTheme = DocsifyTheme;
 const writeCategoryYaml = (categoryPath, label, position, collapsed, generatedIndex) => {
     const yaml = [`label: "${label}"`];
     if (position !== null) {
